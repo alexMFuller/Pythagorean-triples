@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.center {
+    border: 2px solid;
+    text-align: center;
+}
+
+table {
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(102, 102, 153);
+    border: 1px solid rgb(220, 220, 220);
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px dotted rgb(220, 220, 220);
+    padding: 10px;
+    text-align: center;
+    color: rgb(102, 102, 153);
+}
+
+th {
+    background-color: white;
+    border: 1px dotted rgb(220, 220, 220);
+    border-bottom: 2px solid black;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(220, 220, 220);
+}
+
+.tdred {
+    color: red;
+}
